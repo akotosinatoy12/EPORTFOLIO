@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+header {
+    background: #c19770;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin: 1rem 0 0;
+}
+
+nav ul li {
+    margin: 0;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: #fff;
+    color: #c19770;
+    border: 2px solid #fff;
+    border-radius: 5px;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+    color: #303030;
+    font-size: 16px;
+}
+
+section h2 {
+    color: #c19770;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    font-size: 30px;
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.gallery img {
+    width: 300px;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    transition: transform 0.5s ease;
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+}
+
+.profile-pic {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.videos {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.videos video {
+    width: 300px;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+}
+
+
